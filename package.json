@@ -1,0 +1,21 @@
+{
+  "name": "concept",
+  "version": "1.0.0",
+  "main": "concept.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.mjs -w"
+  },
+  "author": "KANSHAN",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "globals": "^15.6.0",
+    "magic-string": "^0.30.10",
+    "rollup": "^4.13.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^1.1.1"
+  }
+}

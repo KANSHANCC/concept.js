@@ -1,0 +1,20 @@
+#content {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.concept-basic {
+}
+.concept-basic::before{
+    color: #ccc;
+}
+.concept-basic:focus {
+    outline: none;
+}
+
+.concept-title:empty::before {
+    content: attr(placeholder);
+}
+.concept-text:focus:empty::before {
+    content: attr(placeholder);
+}
